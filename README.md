@@ -27,9 +27,9 @@ Chaque article à comme point de départ la branche **main** et possèdent tous 
 
 - [main](https://github.com/Djemai-Samy/1.jquery-intiation)
 - [1-introduction](https://github.com/Djemai-Samy/1.jquery-intiation/tree/1-introduction)
-- [2-operations](https://github.com/Djemai-Samy/1.jquery-intiation/tree/2-dom)
-- [3-operators](https://github.com/Djemai-Samy/1.jquery-intiation/tree/3-events)
-- [4-relations](https://github.com/Djemai-Samy/1.jquery-intiation/tree/4-animations)
+- [2-dom](https://github.com/Djemai-Samy/1.jquery-intiation/tree/2-dom)
+- [3-events](https://github.com/Djemai-Samy/1.jquery-intiation/tree/3-events)
+- [4-animations](https://github.com/Djemai-Samy/1.jquery-intiation/tree/4-animations)
 
 ---
 
