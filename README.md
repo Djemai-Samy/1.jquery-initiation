@@ -1,14 +1,14 @@
-# JQuery: Initiation
+# JQuery: Introduction
 
-## [Page officiel du cours JQuery: Initiation](https://djemai-samy.com/posts/0.jquery-initiation)
+## [Page officiel du cours JQuery: Introducion](https://djemai-samy.com/posts/1.jquery-introduction)
 
-![Image du cours: Mongoose: Opérateurs](https://djemai-samy.com/blog/2.programmation/1.web/3.javascript/jquery/1.jquery-initiation/0.jquery-initiation.png)
+![Image du cours: JQuery: Introduction](https://djemai-samy.com/blog/2.programmation/1.web/3.javascript/jquery/1.jquery-initiation/1.jquery-introduction/1.jquery-introduction.png)
 
 La branche 'main' contient le code de départ de chaque chapitre de la série de cours.
 
-Cette série de cours vise à montrer comment utiliser la librairie JQuery avec le langage JavaScript pour développer des applications web interactives et dynamiques.
+Ce premier cours de la série sur JQuery permet de découvrir les bases de cette librairie JavaScript largement utilisée dans le développement web.
 
-Les cours couvriront les concepts clés de JQuery, notamment la manipulation du DOM, la gestion des événements, les animations et les effets.
+Nous allons voire en quoi consiste la libraire et comment l'integrer dans un projet.
 
 ---
 
@@ -65,15 +65,11 @@ Pour suivre cette serie d'inititaion, vous devez avoir une expérience pratique 
 
 ## Objectifs
 
-À la fin de cette serie, vous serez en mesure de :
+À la fin de ce chapitre, vous serez en mesure de :
 
-- **Comprendre** ce qu'est **JQuery** et comment l'**utiliser** dans le développement web.
-- **Comprendre** les **avantages** de l'utilisation de **JQuery** par rapport à JavaScript pur.
-- **Savoir intégrer JQuery** dans une page web existante.
-- **Utiliser** les **sélecteurs** de JQuery pour **sélectionner** des **éléments** HTML sur une page web.
-- **Appliquer** les **méthodes** et **fonctions** de base de JQuery pour **modifier** les **éléments** HTML sélectionnés.
-- **Utiliser** les **événements** de JQuery pour rendre les pages web **interactives**.
-- **Maîtriser** l'utilisation de JQuery pour l'**animation** et les **transitions**.
+1. **Comprendre** les fondamentaux de JQuery.
+2. **Savoir** comment **intégrer** JQuery dans une **page** web
+3. **Comprendre** l'importance de JQuery pour **simplifier** la programmation web
 
 ---
 
@@ -106,4 +102,117 @@ git clone https://gitlab.com/tutoriels-dev/2.web/3.javascript/jquery/1.jquery-in
 
 ---
 
-## Happy coding!
+## JQuery c'est quoi?
+
+[***JQuery est une librairie JavaScript***](https://jquery.com/)
+
+Elle a été **créée en 2006** par John Resig et a rapidement **gagné** en **popularité** grâce à sa **simplicité** et son **efficacité**.
+
+Aujourd'hui, elle est **utilisée** par de **nombreux développeurs** web pour **créer** des **sites web** **dynamiques** et **interactifs**.
+
+---
+
+L'**utilisation** de **JQuery** présente de nombreux **avantages** pour les développeurs web.
+
+Tout d'abord, elle permet de **simplifier** la **manipulation** du **DOM** en fournissant des fonctions prêtes à l'emploi.
+
+Cela permet de **gagner du temps** et **d'augmenter l'efficacité** dans la programmation.
+
+---
+
+De plus, JQuery est **compatible** avec la plupart des **navigateurs web**, ce qui **facilite** la création de sites web **multiplateformes**.
+
+Enfin, elle permet de **réduire** la **quantité de code** nécessaire pour **effectuer** des **tâches courantes**, ce qui rend le **développement** plus **rapide** et plus **facile**.
+
+---
+
+### Comment intégrer JQuery
+
+Il existe **plusieurs façons d'intégrer JQuery** dans une page web.
+
+- [***Documentation officiel de JQuery***](https://jquery.com/download/)
+
+### Utiliser un CDN
+
+La **méthode** la plus **courante** consiste à **utiliser** un Content Delivery Network (**CDN**) pour **charger** la **librairie** JQuery à partir d'un **serveur externe**.
+
+Cela permet de **réduire le temps de chargement** de la page et **d'augmenter la vitesse** de navigation.
+
+- [***Documentation officiel de JQuery sur le CDN***](https://jquery.com/download/#using-jquery-with-a-cdn)
+- [***Liste des versions CDN de JQuery***](https://releases.jquery.com/)
+
+Une fois la version choisie, vous pouvez **cliquer** sur `minified`, pour **récuperer** le code à **coller** dans votre poge web:
+
+```html
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN de JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
+
+    <!-- Votre script -->
+    <script src="./index.js" defer></script>
+
+    <title>JQuery: Introduction</title>
+  </head>
+  <body>
+    <h1>JQuery: Introduction</h1>
+    <p>
+      Ce premier cours de la série sur JQuery permet de découvrir les bases de cette librairie JavaScript largement utilisée dans le développement web.
+    </p>
+    <p>
+      Nous allons voire en quoi consiste la libraire et comment l'integrer dans un projet.
+    </p>
+  </body>
+</html>
+```
+
+### Télecharger la librairie
+
+Il est également possible de **télécharger la librairie** JQuery et de l'**héberger** sur son propre serveur.
+
+Cette méthode est particulièrement **utile** si l'on souhaite **personnaliser** la librairie ou si l'on n'a pas accès à un CDN.
+
+- [***Documentation officiel pour télécharger JQuery***](https://jquery.com/download/#downloading-jquery)
+- [***Liste des versions CDN de JQuery***](https://releases.jquery.com/)
+
+**Une fois** la version choisie est **téléchargée**, vous pouvez **ajouter** le script dans vos **pages html**.
+
+### Premier exemple" level={0}>
+
+Pour **comprendre** comment **fonctionne JQuery**, il est important de [***comprendre le concept de Document Object Model (DOM)***](https://djemai-samy.com/posts/6.javascript.article)
+
+Le **DOM** est une **représentation** hiérarchique de la **structure** d'une page web, qui permet d'**accéder** et de **manipuler** les **éléments** HTML.
+
+Pour **manipuler** le DOM avec JQuery, on utilise des **sélecteurs** qui permettent de **sélectionner** des **éléments** HTML **spécifiques**.
+
+Par exemple, pour **sélectionner** tous les **paragraphes** de la page web, on **utilise** le **sélecteur** `$("p")`.
+
+```js
+// Sélectionner tous les p du DOM
+let listeP = $('p');
+```
+
+---
+
+## Conclusion
+
+Dans ce premier cours, nous avons vu les **bases de JQuery**, son **utilisation**, son **fonctionnement** et comment l'**intégrer** dans une page web.
+
+Nous avons également vu les **avantages de l'utilisation de JQuery**, notamment la **simplification** de la **manipulation** du DOM, le **gain de temps** et d'**efficacité** dans la programmation, ainsi que la **compatibilité** avec plusieurs **navigateurs**.
+
+Nous avons **terminé** ce cours en montrant un **exemple** simple de **manipulation du DOM** avec JQuery, en **sélectionnant** des élément HTML.
+
+---
+
+Dans le **prochain cours**, nous approfondirons la **manipulation du DOM** avec JQuery en **apprenant** à **ajouter** et **supprimer** des éléments, **modifier** les **attributs** et bien plus encore.
+
+Nous vous **invitons** à **explorer** les **ressources utiles** pour continuer à **apprendre** JQuery nottamment, [***la documentation officielle de JQuery***](https://api.jquery.com/).
+
+### Aller plus loin
+
+[Précédent: Javascript: Inititation](https://djemai-samy.com/posts/0.javascript-initiation)
+
+[Suivant: JQuery: Manipulation DOM](https://djemai-samy.com/posts/2.jquery-dom.article)
