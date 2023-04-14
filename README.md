@@ -107,50 +107,39 @@ Pour illustrer nos exemples, nous allons ajouter des éléments à notre page HT
 ```html
 <!DOCTYPE html>
 <html lang="en">
- <head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <!-- CDN de JQuery -->
-   <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN de JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.slim.min.js" integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
 
-   <!-- Votre script -->
-   <script src="./index.js" defer></script>
-   <!-- Votre style -->
-   <link rel="stylesheet" href="./index.css">
-   <title>JQuery: Introduction</title>
- </head>
- <body>
-   <h1>JQuery: Initiation</h1>
-   <strong class="lead">
-     Cette série de cours vise à montrer comment utiliser la librairie JQuery avec le langage JavaScript pour développer des applications web interactives et dynamiques.
-   </strong>
-   <p>
-     Les cours couvriront les concepts clés de JQuery, notamment la manipulation du DOM, la gestion des événements, les animations et les effets.
-   </p>
+    <!-- Votre script -->
+    <script src="./index.js" defer></script>
 
-   <a id="lienSite" href="#">Texte de départ</a>
+    <!-- Vote style -->
+    <link rel="stylesheet" href="./index.css">
+    <title>JQuery: Les événements</title>
+  </head>
+  <body>
+      <h1>JQuery: Les événements</h1>
+      <button id="alertMoi">Lancer une alerte</button>
+      <p>Double clique n'importe quel paragraphe</p>
 
-   <section>
-     <h2>Jquery: Introduction</h2>
-     <p class="lead">
-       Ce premier cours de la série sur JQuery permet de découvrir les bases de cette
-       librairie JavaScript largement utilisée dans le développement web.
-     </p>
-     <p>
-       Nous allons voire en quoi consiste la libraire et comment l'integrer dans un projet.
-     </p>
-   </section>
+      <a href="https://Djemai-samy.com/posts/3.jquery-events.article">Lien vers le site officiel pour suivre le cours</a>
 
-   <section id="active">
-   </section>
+      <form id="emailForm">
+        <input type="text" id="emailInput" placeholder="Entrez une adresse mail">
+        <p id="emailError"></p>
 
-   <section id="aSupprimer">
-     <h2>Une section a supprimer en JQuery</h2>
-     <p class="lead">
-       Pour supprimer un élément, vous pouvez utiliser la méthode `remove()` sur les éléments séléctionner
-     </p>
-   </section>
- </body>
+        <input class="checkMoi" type="checkbox">
+        <span>Check moi!</span>
+
+        <input class="checkMoi" type="checkbox">
+        <span>Moi aussi!</span>
+        
+        <button>Valider</button>
+      </form>
+  </body>
 </html>
 ```
 
