@@ -1,4 +1,4 @@
-# JQuery: Introduction
+# JQuery: Manipulation DOM
 
 ## [Page officiel du cours JQuery: Manipulation du DOM](https://djemai-samy.com/posts/2.jquery-dom)
 
@@ -451,6 +451,6 @@ Dans le **prochain chapitre**, nous explorerons en détail la **gestion des év�
 
 ### Aller plus loin
 
-[Précédent: JQuery: Introduction](https://djemai-samy.com/1.jquery-introduction.article)
+[Précédent: JQuery: Introduction](https://djemai-samy.com/posts/1.jquery-introduction.article)
 
-[Suivant: Les événements](https://djemai-samy.com/3.jquery-events.article)
+[Suivant: Les événements](https://djemai-samy.com/posts/3.jquery-events.article)
