@@ -2,7 +2,7 @@
 
 ## [Page officiel du cours JQuery: Manipulation du DOM](https://djemai-samy.com/posts/2.jquery-dom)
 
-![Image du cours: JQuery: Manipulation du DOM](https://djemai-samy.com/blog/2.programmation/1.web/3.javascript/jquery/1.jquery-initiation/2.jquery-dom/3.jquery-dom.png)
+![Image du cours: JQuery: Manipulation du DOM](https://djemai-samy.com/blog/2.programmation/1.web/3.javascript/jquery/1.jquery-initiation/2.jquery-dom/2.jquery-dom.png)
 
 La branche 'main' contient le code de départ de chaque chapitre de la série de cours.
 
